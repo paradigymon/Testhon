@@ -94,7 +94,7 @@ class ShikiRip(id: Long) : BaseTracker(id, "Shikimori.fi"), DeletableTracker {
         return track
     }
 
-    override fun getLogo() = R.drawable.brand_shikimorifi
+    override fun getLogo() = R.drawable.brand_shikimori
 
     override fun getStatusList(): List<Long> {
         return listOf(READING, COMPLETED, ON_HOLD, DROPPED, PLAN_TO_READ, REREADING)
